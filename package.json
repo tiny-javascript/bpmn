@@ -1,0 +1,38 @@
+{
+  "name": "bpmn",
+  "version": "1.0.0",
+  "description": "bpmn",
+  "main": "index.html",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --config webpack.dev.config.js --progress --colors --inline --hot",
+    "build": "./node_modules/.bin/webpack --config webpack.build.config.js --progress --colors"
+  },
+  "keywords": [
+    "bpmn"
+  ],
+  "author": "TinySha",
+  "license": "ISC",
+  "dependencies": {
+    "konva": "^1.2.2",
+    "node-uuid": "^1.4.7",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "react-konva": "^1.0.6",
+    "react-router": "^2.6.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

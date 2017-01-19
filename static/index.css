@@ -1,0 +1,66 @@
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Required to make elements draggable in old WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+    cursor: move;
+}
+
+.navbar {
+    margin-bottom: 5px;
+}
+
+.bpmn-container {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+
+.bpmn-tool {
+    float: left;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+}
+
+.bpmn-tool-item {
+    text-align: center;
+}
+
+.bpmn-tool-item>section {
+    position: relative;
+    margin: 5px auto;
+}
+
+.bpmn-tool-item-dragger {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.bpmn-graph {
+    position: relative;
+    margin-left: 124px;
+    background: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 0), linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 0);
+    background-size: 10px 10px;
+}
+.bpmn-test{
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    width: 300px;
+    background: #e5e5e5;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.bpmn-test #color{
+    width: 44px;
+}
